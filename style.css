@@ -1,0 +1,67 @@
+/* Estilos gerais */
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(197, 170, 170);
+  color: #210202;
+}
+ 
+header {
+  background-color: #1c5842;
+  color: rgb(197, 170, 170);
+  padding: 20px;
+  text-align: stretch;
+}
+
+.navlogo{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.lista{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+footer{
+  background-color: #1c5842;
+  color: rgb(197, 170, 170);
+  text-align: center;
+  padding: 3%;
+}
+
+section{
+  background-color: rgb(197, 170, 170);
+  max-width: 97%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 25px;
+  color: green;
+  font-family: arial;
+  text-align: center;
+}
+
+h2{
+  font-size: 20px;
+  color: green;
+  font-family: arial;
+  text-align: center;
+}
+
+p{
+  text-align: justify;
+  font-family: Arial;
+  font-size: 18px;
+}
+
+figure{
+  text-align: stretch;
+}
