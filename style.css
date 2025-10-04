@@ -7,13 +7,13 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: rgb(197, 170, 170);
+  background-color: #f7f1e3;
   color: #210202;
 }
  
 header {
   background-color: #1c5842;
-  color: rgb(197, 170, 170);
+  color: rgb(234, 251, 226);
   padding: 20px;
   text-align: stretch;
 }
@@ -21,47 +21,79 @@ header {
 .navlogo{
   display: flex;
   justify-content: flex-start;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .lista{
   display: flex;
-  justify-content: flex-end;
+  white-space: nowrap;
+  justify-content: space-between;
   align-items: center;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  background-color: #1c5842;
+  margin-left: 1.5rem;
+  padding-left: 0;
+  list-style-type: none;
+} 
+
+nav ul li a{
+  text-decoration: none;
+  color:#f7f1e3;
+  font-weight: 500;
+  transition: color 0.5s;
+  border: 2px solid rgb(91, 125, 120);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+nav ul li a:hover{
+  color: #cda475;
 }
 
 footer{
   background-color: #1c5842;
-  color: rgb(197, 170, 170);
+  color: #f7f1e3;
   text-align: center;
   padding: 3%;
 }
 
 section{
-  background-color: rgb(197, 170, 170);
-  max-width: 97%;
+  padding: 3%;
   text-align: center;
+  color: #3b2f2f;
 }
 
-h1 {
+h1, h2 {
   font-size: 25px;
-  color: green;
-  font-family: arial;
+  color: #f7f1e3;
+  font-family: 'bold italic tracking-wide';
   text-align: center;
 }
 
-h2{
-  font-size: 20px;
-  color: green;
-  font-family: arial;
+h3 {
+  font-size: 25px;
+  color: #1c5842;
+  font-family: 'bold italic tracking-wide';
   text-align: center;
+}
+
+h4 {
+ font-family: 'bold italic tracking-wide';
+  text-align: center; 
+  font-size: 20px;
+  color: #1c5842;
 }
 
 p{
-  text-align: justify;
-  font-family: Arial;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
   font-size: 18px;
 }
 
-figure{
-  text-align: stretch;
+.mensagembloco{
+  background-color: rgb(234, 251, 226);
+  border: 2px solid #333;
+  border-radius: 10px;
 }
