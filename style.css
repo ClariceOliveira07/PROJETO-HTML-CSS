@@ -21,7 +21,7 @@ header {
 .navlogo{
   display: flex;
   justify-content: flex-start;
-  font-size: 1.5rem;
+  font-size: 28px;
   font-weight: 700;
 }
 
@@ -66,8 +66,15 @@ section{
 }
 
 h1, h2 {
-  font-size: 25px;
+  font-size: 28px;
   color: #f7f1e3;
+  font-family: 'Libre Baskerville';
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  color: rgb(234, 251, 226);
   font-family: 'Libre Baskerville';
   text-align: center;
 }
@@ -108,6 +115,7 @@ table {
 th, td{
   border: 1px solid #1c5842;
   padding: 10px;
+  font-size: 18px;
 }
 
 thead th {
@@ -116,4 +124,21 @@ thead th {
   text-align: center;
 }
 
+.linha{
+  width: 100%;
+  border-top: 1px solid rgb(91, 125, 120);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
+.circulo{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #1c5842;
+  background-color: rgb(234, 251, 226);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
