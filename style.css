@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
   margin: 0;
   border: 0;
@@ -66,7 +68,7 @@ section{
 h1 {
   font-size: 28px;
   color: #f7f1e3;
-  font-family: 'Libre Baskerville';
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: center;
 }
 
@@ -129,9 +131,16 @@ thead th {
   margin-bottom: 20px;
 }
 
+.circles{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .circulo{
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   border: 2px solid #1c5842;
   background-color: rgb(234, 251, 226);
@@ -139,4 +148,42 @@ thead th {
   justify-content: center;
   text-align: center;
   display: flex;
+}
+
+.bloco1, .bloco3, .bloco5, .bloco7{
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.textblo1, .textblo3, .textblo5, .textblo7{
+  flex: 1;
+  max-width: 50%;
+}
+
+.bloco2, .bloco4, .bloco6, .bloco8{
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  justify-content:space-between;
+  flex-direction: row-reverse;
+  gap: 40px;
+}
+
+.textblo2, .textblo4, .textblo6, .textblo8{
+  flex: 1;
+  max-width: 50%;
+}
+
+.bloco1, .bloco2, .bloco3, .bloco4, .bloco5, .bloco6, .bloco7, .bloco8 img{
+  flex: 1;
+  max-width: 50%;
+  height: auto;
+}
+
+img{
+  width: 95%;
+  height: 80%;
 }
