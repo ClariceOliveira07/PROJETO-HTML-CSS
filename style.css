@@ -167,36 +167,47 @@ thead th {
   display: flex;
 }
 
-.circulo div
-
 .bloco1, .bloco3, .bloco5, .bloco7{
-  display: flex;
-  padding: 50px;
-  align-items: center;
-  gap: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 15px; 
+  max-width: 1200px;
+  margin: 50px auto;
+  font-family: sans-serif;
+  background-color: white;/
 }
 
 .textblo1, .textblo3, .textblo5, .textblo7{
-  flex: 1;
-  max-width: 50%;
+  padding: 30px;
+  background-color: #f7f7f7; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .bloco2, .bloco4, .bloco6, .bloco8{
-  display: flex;
-  padding: 50px;
-  flex-direction: row-reverse;
-  gap: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 15px; 
+  max-width: 1200px;
+  margin: 50px auto;
+  font-family: sans-serif;
+  background-color: white;
 }
 
 .textblo2, .textblo4, .textblo6, .textblo8{
-  flex: 1;
-  max-width: 50%;
+  padding: 30px;
+  background-color: #f7f7f7; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .bloco1, .bloco2, .bloco3, .bloco4, .bloco5, .bloco6, .bloco7, .bloco8 img{
-  flex: 1;
-  max-width: 50%;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 img{
