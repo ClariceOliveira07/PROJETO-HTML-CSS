@@ -49,7 +49,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-  color: #cda475;
+  color: rgb(117, 184, 184);
 }
 
 footer{
@@ -112,10 +112,27 @@ table {
   font-family: 'Libre Baskerville';
 }
 
-th, td{
+th{
   border: 1px solid #1c5842;
   padding: 10px;
   font-size: 18px;
+} 
+
+td{
+  border: 1px solid #1c5842;
+  padding: 10px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+a{
+  color:#1c5842;
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(86, 140, 140);
+
 }
 
 thead th {
@@ -150,11 +167,12 @@ thead th {
   display: flex;
 }
 
+.circulo div
+
 .bloco1, .bloco3, .bloco5, .bloco7{
   display: flex;
   padding: 50px;
   align-items: center;
-  justify-content: space-between;
   gap: 40px;
 }
 
@@ -166,8 +184,6 @@ thead th {
 .bloco2, .bloco4, .bloco6, .bloco8{
   display: flex;
   padding: 50px;
-  align-items: center;
-  justify-content:space-between;
   flex-direction: row-reverse;
   gap: 40px;
 }
@@ -184,6 +200,8 @@ thead th {
 }
 
 img{
-  width: 95%;
-  height: 80%;
+  width: 100%;
+  height: 70%;
+  border: 2px solid #1c5842;
+  border-radius: 10px;
 }
