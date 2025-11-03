@@ -1,4 +1,4 @@
-const floriografiaSign = {
+const floriografiaData = {
     amor: {
         flor: "Rosa Vermelha",
         significado: "Para expressar amor profundo e paixão incondicional. É o símbolo clássico do afeto romântico.",
@@ -52,8 +52,8 @@ const botoesEmocao = document.querySelectorAll('.emocaobotao');
 const resultadocaixa = document.getElementById('resultadocaixa'); 
 
 function consultarFlor(evento) {
-    const emocao = evento.currentTarget.getAttribute('data-emotion');
-    const sugestao = floriografiaSign[emocao];
+    const emocao = evento.currentTarget.getAttribute('emotion');
+    const sugestao = floriografiaData[emocao];
     if (sugestao) {
         const htmlResultado = `
             <h3>Para transmitir '${evento.currentTarget.textContent}', sugerimos:</h3>

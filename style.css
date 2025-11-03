@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Libre Baskerville', serif;
+  font-family: Arial, sans-serif;
   background-color: #f7f1e3;
   color: #210202;
 }
@@ -49,8 +49,9 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-  color: rgb(117, 184, 184);
-  
+  color: #1c5842;
+  background-color: #e6ffe6;
+  transition: 0.7s;
 }
 
 footer{
@@ -69,35 +70,36 @@ section{
 h1 {
   font-size: 28px;
   color: #f7f1e3;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Libre Baskerville';
   text-align: center;
 }
 
 h2 {
   font-size: 28px;
   color: rgb(234, 251, 226);
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Libre Baskerville';
   text-align: center;
 }
 
 h3 {
   font-size: 25px;
   color: #1c5842;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Libre Baskerville';
   text-align: center;
 }
 
 h4 {
- font-family: 'Libre Baskerville', serif;
+ font-family: 'Libre Baskerville';
   text-align: center; 
   font-size: 20px;
   color: #1c5842;
 }
 
 p{
-  text-align: justify;
+  text-align: center;
   font-family: 'Roboto Condensed', Arial, sans-serif;
   font-size: 18px;
+  color: #555;
 }
 
 .mensagembloco{
@@ -124,6 +126,7 @@ td{
   padding: 10px;
   font-size: 18px;
   text-decoration: none;
+  font-family: 'Roboto Condensed', Arial, sans-serif;;
 }
 
 a{
@@ -171,20 +174,24 @@ thead th {
 .bloco1, .bloco3, .bloco5, .bloco7{
   display: grid;
   grid-template-columns: 1fr 1fr; 
-  gap: 15px; 
-  border: 2px solid white;
-  border-radius: 10px;
+  gap: 0; 
+  border: 1px solid #e0e0e0;
+  border-radius: 15px;
   max-width: 1200px;
   margin: 50px auto;
   font-family: sans-serif;
-  background-color: white;/
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
 .textblo1, .textblo3, .textblo5, .textblo7{
   padding: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  background-color: white;
+  order: 1;
 }
 
 .bloco2, .bloco4, .bloco6, .bloco8{
@@ -192,31 +199,35 @@ thead th {
   grid-template-columns: 1fr 1fr; 
   gap: 15px; 
   border: 2px solid white;
-  border-radius: 10px;
+  border-radius: 15px;
   max-width: 1200px;
   margin: 50px auto;
   font-family: sans-serif;
   background-color: white;
+   overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
 .textblo2, .textblo4, .textblo6, .textblo8{
   padding: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  background-color: white;
 }
 
-.bloco1, .bloco2, .bloco3, .bloco4, .bloco5, .bloco6, .bloco7, .bloco8 img{
+.bloco1 img, .bloco2 img, .bloco3 img, .bloco4 img, .bloco5 img, .bloco6 img, .bloco7 img, .bloco8 img{
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
+  border-radius: 0;
+  border: none;
 }
 
 img{
   width: 100%;
   height: 70%;
-  border: 2px solid #1c5842;
   border-radius: 10px;
 }
 
@@ -254,4 +265,8 @@ img{
   font-weight: bold;
   display: block; 
   margin-top: 20px;
+}
+
+footer p{
+  color: #e6ffe6;
 }
