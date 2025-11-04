@@ -49,9 +49,52 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-  color: #1c5842;
-  background-color: #e6ffe6;
-  transition: 0.7s;
+  color: #FFEDF2;
+  background-color: #3b2f2f;
+  transition: 0.7s ease;
+}
+
+.heromini {
+  padding: 100px 50px; 
+  opacity: 0.5;
+  background-image: url(imagens/sakura-rosa-em-foco-suave-bela-flor-de-cerejeira-no-japao-flores-rosa-brilhantes-de-sakura-sobre-o-fundo-desfocado-fundo-de-primavera-e-belas-pa.jpg);
+  text-align: center; 
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover;
+}
+
+.subtitulomini {
+    color: #3D000D; 
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.introducao {
+    font-size: 1.2em;
+    color: black;
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+    line-height: 1.5;
+}
+
+.botaomini {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #1c5842;
+    color: #f7f1e3;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 1px;
+    transition: 0.7s ease;
+}
+
+.botaomini:hover {
+  background-color: #3b2f2f;
+  color: #FFEDF2;
 }
 
 footer{
@@ -174,13 +217,12 @@ thead th {
 .bloco1, .bloco3, .bloco5, .bloco7{
   display: grid;
   grid-template-columns: 1fr 1fr; 
-  gap: 0; 
   border: 1px solid #e0e0e0;
   border-radius: 15px;
   max-width: 1200px;
   margin: 50px auto;
   font-family: sans-serif;
-  background-color: white;
+  background-color: #FFEDF2;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
@@ -190,7 +232,6 @@ thead th {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: white;
   order: 1;
 }
 
@@ -198,7 +239,7 @@ thead th {
   display: grid;
   grid-template-columns: 1fr 1fr; 
   gap: 15px; 
-  border: 2px solid white;
+  border: 1px solid #e0e0e0;
   border-radius: 15px;
   max-width: 1200px;
   margin: 50px auto;
@@ -213,7 +254,6 @@ thead th {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: white;
 }
 
 .bloco1 img, .bloco2 img, .bloco3 img, .bloco4 img, .bloco5 img, .bloco6 img, .bloco7 img, .bloco8 img{
@@ -221,14 +261,7 @@ thead th {
   height: 100%;
   object-fit: cover;
   display: block;
-  border-radius: 0;
   border: none;
-}
-
-img{
-  width: 100%;
-  height: 70%;
-  border-radius: 10px;
 }
 
 .emocaobotao {
