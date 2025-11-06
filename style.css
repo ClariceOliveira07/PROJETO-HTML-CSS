@@ -51,27 +51,52 @@ nav ul li a{
 nav ul li a:hover{
   color: #FFEDF2;
   background-color: #3b2f2f;
+  border-color: #FFEDF2;
   transition: 0.7s ease;
 }
 
-.heromini {
-  padding: 100px 50px; 
-  opacity: 0.5;
-  background-image: url(imagens/sakura-rosa-em-foco-suave-bela-flor-de-cerejeira-no-japao-flores-rosa-brilhantes-de-sakura-sobre-o-fundo-desfocado-fundo-de-primavera-e-belas-pa.jpg);
-  text-align: center; 
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-size: cover;
+.linha {
+  color:#FFEDF2;
 }
 
-.subtitulomini {
+.fundoimg {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: auto;
+  text-align: center;
+  padding: 100px 50px;
+}
+
+:root {
+  --cor-fundo-corpo: #f7f1e3;
+}
+
+.fundoimg::before{
+  content: "";
+  position: absolute;
+  background:
+  linear-gradient(
+    to bottom, 
+    rgba(255, 255, 255, 0) 0%, 
+    var(--cor-fundo-corpo) 100%) ,
+    url(imagens/sakura-rosa-em-foco-suave-bela-flor-de-cerejeira-no-japao-flores-rosa-brilhantes-de-sakura-sobre-o-fundo-desfocado-fundo-de-primavera-e-belas-pa.jpg);
+  inset: 0;
+  background-size: cover;
+  background-position: bottom;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.subtituloimg {
     color: #3D000D; 
     font-size: 2.5em;
     margin-bottom: 20px;
     font-family: 'Libre Baskerville', serif;
 }
 
-.introducao {
+.introducaoimg {
     font-size: 1.2em;
     color: black;
     max-width: 700px;
@@ -79,7 +104,7 @@ nav ul li a:hover{
     line-height: 1.5;
 }
 
-.botaomini {
+.botaoimg {
     display: inline-block;
     padding: 12px 25px;
     background-color: #1c5842;
@@ -92,9 +117,10 @@ nav ul li a:hover{
     transition: 0.7s ease;
 }
 
-.botaomini:hover {
+.botaoimg:hover {
   background-color: #3b2f2f;
   color: #FFEDF2;
+  border-color: #FFEDF2;
 }
 
 footer{
@@ -108,11 +134,13 @@ section{
   padding: 3%;
   text-align: center;
   color: #3b2f2f;
+  background-color: var(--cor-fundo-corpo);
+  padding: 50px;
 }
 
 h1 {
   font-size: 28px;
-  color: #f7f1e3;
+  color: #FFEDF2;
   font-family: 'Libre Baskerville';
   text-align: center;
 }
