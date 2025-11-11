@@ -7,7 +7,6 @@
   padding: 0;
 }
 
-
 h1 {
   font-size: 28px;
   color: #FFEDF2;
@@ -144,7 +143,7 @@ footer p {
     to bottom, 
     rgba(255, 255, 255, 0) 0%, 
     var(--cor-fundo-corpo) 100%) ,
-    url('imagens/sakura-rosa-em-foco-suave-bela-flor-de-cerejeira-no-japao-flores-rosa-brilhantes-de-sakura-sobre-o-fundo-desfocado-fundo-de-primavera-e-belas-pa.jpg');
+    url('sakura-rosa-em-foco-suave-bela-flor-de-cerejeira-no-japao-flores-rosa-brilhantes-de-sakura-sobre-o-fundo-desfocado-fundo-de-primavera-e-belas-pa.jpg');
   inset: 0;
   background-size: cover;
   background-position: bottom;
