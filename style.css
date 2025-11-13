@@ -5,20 +5,21 @@
   margin: 0;
   border: 0;
   padding: 0;
+  line-height: 1.5;
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 2.5em;
   color: #FFEDF2;
   font-family: 'Libre Baskerville';
-  text-align: center;
+  text-align: left;
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 1.5em;
   color: rgb(234, 251, 226);
   font-family: 'Libre Baskerville';
-  text-align: center;
+  text-align: left;
 }
 
 h3 {
@@ -51,51 +52,56 @@ body {
 header {
   background-color: #1c5842;
   color: rgb(234, 251, 226);
-  padding: 20px;
-  text-align: stretch;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navlogo{
   display: flex;
   justify-content: flex-start;
-  font-size: 28px;
   font-weight: 700;
+  margin: 0;
 }
 
-.lista{
+.navlogo h1 {
+  margin: 0;
+}
+
+.navlogo h2 {
+  margin: 0;
+}
+
+.navbar ul{
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  border-radius: 0.5rem;
-  background-color: #1c5842;
-  margin-left: 1.5rem;
-  padding-left: 0;
-  list-style-type: none;
+  align-items: center; */
+  /* border-radius: 0.5rem;
+  /* background-color: #1c5842; */
+  list-style: none;
+  margin: 0;
+  padding: 0;
 } 
 
-nav ul li a{
+.navbar li {
+  margin-left: 20px;
+}
+
+.navbar a{
   text-decoration: none;
   color:#f7f1e3;
-  font-weight: 500;
-  border: 2px solid rgb(91, 125, 120);
-  padding: 5px;
+  border: 1px solid rgb(91, 125, 120);
+  padding: 8px 10px;
   border-radius: 10px;
 }
 
-nav ul li a:hover{
+.navbar a:hover{
   color: #FFEDF2;
   background-color: #3b2f2f;
   border-color: #FFEDF2;
   transition: 0.7s ease;
-}
-
-.linha{
-  width: 100%;
-  border-top: 1px solid #FFEDF2;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 section{
@@ -152,31 +158,32 @@ footer p {
 }
 
 .subtituloimg {
-    color: #3D000D; 
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    font-family: 'Libre Baskerville', serif;
+  color: #3D000D; 
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .introducaoimg {
-    font-size: 1.2em;
-    color: black;
-    max-width: 700px;
-    margin: 0 auto 40px auto;
-    line-height: 1.5;
+  font-size: 1.2em;
+  color: black;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  line-height: 1.5;
 }
 
 .botaoimg {
-    display: inline-block;
-    padding: 12px 25px;
-    background-color: #1c5842;
-    color: #f7f1e3;
-    text-decoration: none;
-    font-weight: 500;
-    border-radius: 5px;
-    border: none;
-    letter-spacing: 1px;
-    transition: 0.7s ease;
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #1c5842;
+  color: #f7f1e3;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+  letter-spacing: 1px;
+  transition: 0.7s ease;
 }
 
 .botaoimg:hover {
@@ -307,7 +314,7 @@ thead th {
   padding: 10px 20px;
   background-color: #f0f0f0; 
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   font-size: 1em;
 }
