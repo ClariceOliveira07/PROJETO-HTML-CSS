@@ -300,6 +300,10 @@ thead th {
   justify-content: center;
 }
 
+.textblo1 h2, .textblo3 h2, .textblo5 h2, .textblo7 h2, .textblo2 h2, .textblo4 h2, .textblo6 h2, .textblo8 h2{
+  text-align: center;
+}
+
 .bloco1 img, .bloco2 img, .bloco3 img, .bloco4 img, .bloco5 img, .bloco6 img, .bloco7 img, .bloco8 img{
   width: 100%;
   height: 100%;
