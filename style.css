@@ -10,7 +10,7 @@
 
 h1 {
   font-size: 2.5em;
-  color: #FFEDF2;
+  color: #ebe8e9;
   font-family: 'Libre Baskerville';
   text-align: left;
 }
@@ -58,10 +58,9 @@ header {
   align-items: center;
 }
 
-.navlogo{
-  display: flex;
+.navlogo {
+  display: block;
   justify-content: flex-start;
-  font-weight: 700;
   margin: 0;
 }
 
@@ -73,13 +72,9 @@ header {
   margin: 0;
 }
 
-.navbar ul{
+.navbar ul {
   display: flex;
-  /* flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center; */
-  /* border-radius: 0.5rem;
-  /* background-color: #1c5842; */
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -91,10 +86,11 @@ header {
 
 .navbar a{
   text-decoration: none;
-  color:#f7f1e3;
-  border: 1px solid rgb(91, 125, 120);
+  color:#F4F1DE;
+  border: 1px solid #F4F1DE;
   padding: 8px 10px;
   border-radius: 10px;
+  background-color: rgba(244, 241, 222, 0.2)dc;
 }
 
 .navbar a:hover{
