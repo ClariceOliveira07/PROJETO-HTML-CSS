@@ -310,6 +310,41 @@ thead th {
 
 /* Consultor */
 
+section {
+  position: relative;
+  overflow: hidden;
+}
+
+.florlateralesq, .florlateraldir {
+  background-image: url('png-transparent-white-flowers-art-flower-white-pear-flower-arranging-white-black-white-thumbnail-removebg-preview.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 170px; 
+  height: 2000px; 
+  position: absolute; 
+  top: 0; 
+  pointer-events: none; 
+}
+
+.florlateralesq {
+  left: 0;
+}
+
+.florlateraldir {
+  background-image: url('png-transparent-white-flowers-art-flower-white-pear-flower-arranging-white-black-white-thumbnail-removebg-preview-direita.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 170px; 
+  height: 2000px; 
+  position: absolute; 
+  top: 0; 
+  pointer-events: none; 
+}
+
+.florlateraldir {
+  right: 0;
+}
+
 .emocaobotao {
   padding: 10px 20px;
   background-color: #f0f0f0; 
