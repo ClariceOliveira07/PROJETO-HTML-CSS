@@ -32,7 +32,7 @@ const floriografiaData = {
     consolo: {
         flor: "Papoula",
         significado: "Representa a consolação e o sono. É a flor ideal para levar conforto e descanso em momentos difíceis.",
-        link: "papou.html#papou"
+        link: "galeria.html#papou"
     },
 
     surpresa: {
